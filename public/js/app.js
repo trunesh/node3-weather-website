@@ -36,7 +36,7 @@ weatherForm.addEventListener('submit',(e)=>{
             // console.log(forecastdata.address)
             // console.log(forecastdata.location)
             // console.log(forecastdata.forecast)
-            messageOne.textContent=forecastdata.address+ '-' + forecastdata.location 
+            messageOne.textContent=forecastdata.location 
             messageTwo.textContent=forecastdata.forecast
         }
     })
